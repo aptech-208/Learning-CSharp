@@ -8,9 +8,9 @@ namespace Learning_C_
         {
             //Now Create Object Here
 
-            // Student ali = new Student(); //constructor method
-            //ali.BioData();
-            //ali.Print("Abc");
+            // Student Stu = new Student(); //constructor method
+            //Stu.BioData();
+            //Stu.Print("Abc");
 
             //UserController a = new UserController();
             //a.Bike();
@@ -18,12 +18,18 @@ namespace Learning_C_
             //a.House();
             //a.Business();
 
-            Controller controller = new Controller();
-            controller.Bike();
-            controller.Car();
-            controller.House();
+            //Controller controller = new Controller();
+            //controller.Bike();
+            //controller.Car();
+            //controller.House();
 
+            UserController User = new UserController();
+            User.BioData("Xyz", "Xys@gmail.com", "Xyz#1");
+            User.PrintData();
 
+            FacultyController Admin = new FacultyController();
+            Admin.BioData("XyzAdmin", "XyzAdmin@gmail.com", "XyzAdmin");
+            Admin.PrintData();
 
         }
     }

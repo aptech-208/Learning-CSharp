@@ -8,9 +8,15 @@ namespace Learning_C_
 {
     internal class UserController : Controller
     {
+        public void PrintData()
+        {
+            Console.WriteLine("UserName" + this.name);
+            Console.WriteLine("UserEmail" + this.email);
+            Console.WriteLine("UserPassword" + this.password);
+        }
         public void Business()
         {
-            Console.WriteLine("Hussain Have Own Business");
+            Console.WriteLine("Xyz Have a Business");
         }
     }
 }
