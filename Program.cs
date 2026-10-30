@@ -23,14 +23,21 @@ namespace Learning_C_
             //controller.Car();
             //controller.House();
 
-            UserController User = new UserController();
-            User.BioData("Xyz", "Xys@gmail.com", "Xyz#1");
-            User.PrintData();
+            //UserController User = new UserController();
+            //User.BioData("Xyz", "Xys@gmail.com", "Xyz#1");
+            //User.PrintData();
 
-            FacultyController Admin = new FacultyController();
-            Admin.BioData("XyzAdmin", "XyzAdmin@gmail.com", "XyzAdmin");
-            Admin.PrintData();
+            //FacultyController Admin = new FacultyController();
+            //Admin.BioData("XyzAdmin", "XyzAdmin@gmail.com", "XyzAdmin");
+            //Admin.PrintData();
 
+            //ABSTRACT AND INTERFACE
+            //ChildAbstract childAbstract = new ChildAbstract();
+            //childAbstract.Connect();
+            //childAbstract.Disconnect();
+            InterfaceT face = new InterfaceT();
+            face.IPrint();
+            face.IScreen();
         }
     }
 }

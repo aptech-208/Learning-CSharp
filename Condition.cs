@@ -53,42 +53,42 @@ namespace Learning_C_
 
         }
 
-        public void SwitchCase()
-        {
-            Console.Write("Input a Month Using Number To Know The Season: ");
-            int Number = int.Parse(Console.ReadLine());
+        //public void SwitchCase()
+        //{
+        //    Console.Write("Input a Month Using Number To Know The Season: ");
+        //    int Number = int.Parse(Console.ReadLine());
 
-            switch (Number)
-            case 11:
-            case 12:
-            case 1:
-                Console.WriteLine("Currently Its Winter.");
-                break;
+        //    switch (Number)
+        //    case 11:
+        //    case 12:
+        //    case 1:
+        //        Console.WriteLine("Currently Its Winter.");
+        //        break;
 
-            case 2:
-            case 3:
-            case 4:
-                Console.WriteLine("Currently Its Autumn.");
-                break;
+        //    case 2:
+        //    case 3:
+        //    case 4:
+        //        Console.WriteLine("Currently Its Autumn.");
+        //        break;
 
-            case 5:
-            case 6:
-            case 7:
-                Console.WriteLine("Currently Its Spring.");
-                break;
+        //    case 5:
+        //    case 6:
+        //    case 7:
+        //        Console.WriteLine("Currently Its Spring.");
+        //        break;
 
-            case 8:
-            case 9:
-            case 10:
-                Console.WriteLine("Currently Its Summer.");
-                break;
+        //    case 8:
+        //    case 9:
+        //    case 10:
+        //        Console.WriteLine("Currently Its Summer.");
+        //        break;
 
 
-            default:
-                Console.WriteLine("Unknown Number.");
-                break;
+        //    default:
+        //        Console.WriteLine("Unknown Number.");
+        //        break;
 
-            }
+        //    }
 
             //switch (Number)
             //{
