@@ -35,9 +35,12 @@ namespace Learning_C_
             //ChildAbstract childAbstract = new ChildAbstract();
             //childAbstract.Connect();
             //childAbstract.Disconnect();
-            InterfaceT face = new InterfaceT();
-            face.IPrint();
-            face.IScreen();
+            //InterfaceT face = new InterfaceT();
+            //face.IPrint();
+            //face.IScreen();
+
+            //COLLECTION
+
         }
     }
 }
